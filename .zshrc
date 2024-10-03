@@ -138,8 +138,14 @@ alias ga='git add'
 alias gc='git commit -m'
 alias gp='git push origin master'
 
+# nvim
+alias vim='nvim'
+
 #emacs
 alias emacs="emacsclient -c -a 'emacs'"
+
+# exa
+alias ls='exa -al --color=always --group-directories-first'
 
 #custom stuff
 cat ~/.cache/wal/sequences
